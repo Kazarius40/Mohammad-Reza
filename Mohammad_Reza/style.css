@@ -32,9 +32,6 @@
     left: 22px;
 }
 
-/*Не до кінця розібрався з методологією БЕМ, але сподіваюся на JavaScript ми ще будемо це проходити
-та я зможу краще розібратися з цим.*/
-
 .main__about {
     display: flex;
     justify-content: space-between;
@@ -395,7 +392,7 @@
     gap: 333px;
 }
 
-.contact-email {
+footer .contact-email {
     h3 {
         color: #F9F9F9;
         font-size: 36px;
