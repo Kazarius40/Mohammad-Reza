@@ -365,6 +365,7 @@
         width: 25px;
         height: 24px;
         position: absolute;
+        /*----------Тому що ширина галочки-хрестика 25px та відстань до ліжечка 16px, що в сумі дасть 41px--------*/
         left: -41px;
         background-image: url('img/section_price-plans/Check-mark.svg');
     }
