@@ -367,7 +367,7 @@
         position: absolute;
         /*----------Тому що ширина галочки-хрестика 25px та відстань до ліжечка 16px, що в сумі дасть 41px--------*/
         left: -41px;
-        background-image: url('img/section_price-plans/Check-mark.svg');
+        background-image: url('../img/section_price-plans/Check-mark.svg');
     }
 
     .price-plans__silver li:nth-child(2) ~ li,
@@ -377,7 +377,7 @@
 
     .price-plans__silver li:nth-child(2) ~ li::before,
     .price-plans__gold li:nth-child(4) ~ li::before {
-        background-image: url('img/section_price-plans/Close.svg');
+        background-image: url('../img/section_price-plans/Close.svg');
     }
 }
 
